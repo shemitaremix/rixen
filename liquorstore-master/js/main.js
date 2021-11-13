@@ -61,21 +61,14 @@
 
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
-		// 	 timer;
-		// clearTimeout(timer);
 		$this.addClass('show');
 		$this.find('> a').attr('aria-expanded', true);
-		// $this.find('.dropdown-menu').addClass('animated-fast fadeInUp show');
 		$this.find('.dropdown-menu').addClass('show');
 	}, function(){
 		var $this = $(this);
-			// timer;
-		// timer = setTimeout(function(){
 			$this.removeClass('show');
 			$this.find('> a').attr('aria-expanded', false);
-			// $this.find('.dropdown-menu').removeClass('animated-fast fadeInUp show');
 			$this.find('.dropdown-menu').removeClass('show');
-		// }, 100);
 	});
 
 
@@ -83,7 +76,6 @@
 	  console.log('show');
 	});
 
-	// scroll
 	var scrollWindow = function() {
 		$(window).scroll(function(){
 			var $w = $(this),
@@ -186,26 +178,23 @@
 	};
 	contentWayPoint();
 
-
-	
-	// magnific popup
 	$('.image-popup').magnificPopup({
     type: 'image',
     closeOnContentClick: true,
     closeBtnInside: false,
     fixedContentPos: true,
-    mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+    mainClass: 'mfp-no-margins mfp-with-zoom', 
      gallery: {
       enabled: true,
       navigateByImgClick: true,
-      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+      preload: [0,1] 
     },
     image: {
       verticalFit: true
     },
     zoom: {
       enabled: true,
-      duration: 300 // don't foget to change the duration also in CSS
+      duration: 300 
     }
   });
 
