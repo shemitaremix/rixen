@@ -89,3 +89,14 @@
             })
     
     }
+    $("#compra").on("click",myFuncion)
+
+    function myFuncion(){
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Al parecer estamos en construccion!',
+            footer: '<a href="">Proximamente quedara</a>'
+            })
+    
+    }
