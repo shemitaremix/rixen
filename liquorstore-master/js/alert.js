@@ -100,3 +100,14 @@
             })
     
     }
+
+    $("#datillos").on("click",myFuncion)
+
+    function myFuncion(){
+        Swal.fire(
+            'Buen trabajo!',
+            'Datos mandados a la base de datos!',
+            'success'
+          )
+    
+    }
