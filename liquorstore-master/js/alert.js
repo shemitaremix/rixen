@@ -100,14 +100,59 @@
             })
     
     }
-
-    $("#datillos").on("click",myFuncion)
+    $("#merch6").on("click",myFuncion)
 
     function myFuncion(){
-        Swal.fire(
-            'Buen trabajo!',
-            'Datos mandados a la base de datos!',
-            'success'
-          )
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Al parecer estamos en construccion!',
+            footer: '<a href="">Proximamente quedara</a>'
+            })
     
     }
+    $("#merch7").on("click",myFuncion)
+
+    function myFuncion(){
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Al parecer estamos en construccion!',
+            footer: '<a href="">Proximamente quedara</a>'
+            })
+    
+    }
+    $("#merch8").on("click",myFuncion)
+
+    function myFuncion(){
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Al parecer estamos en construccion!',
+            footer: '<a href="">Proximamente quedara</a>'
+            })
+    
+    }
+    $("#merch9").on("click",myFuncion)
+
+    function myFuncion(){
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Al parecer estamos en construccion!',
+            footer: '<a href="">Proximamente quedara</a>'
+            })
+    
+    }
+    $("#merch10").on("click",myFuncion)
+
+    function myFuncion(){
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Al parecer estamos en construccion!',
+            footer: '<a href="">Proximamente quedara</a>'
+            })
+    
+    }
+    
